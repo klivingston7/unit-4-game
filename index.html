@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Crystal Collector</title>
+    <!-- Document character set -->
+    <meta charset="UTF-8">
+    <!-- Repsponsive across decvices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Linking jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Linking Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet"> 
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <div class="text-center">
+    <h1 class="text-center">Crystal Collector Game</h1> 
+  </div>
+</div>
+
+<div class="container">
+ <br>
+    <div class="row">
+        <div class="col-sm-5 leftPan">
+            <div class="panel panel-default">
+                <h2 id="gpTitle">Instructions</h2>
+             </div>
+
+            <div id="gpInstruct">
+                <p>You'll be given a random number at the start of each game.</p>
+
+                <p>By clicking one of the four crystals below you will add a specific amount to your total score.</p>
+
+                <p>You WIN the game by MATCHING your total score to the goal. Your total score goes ABOVE the random number? You LOSE!</p>
+
+                <p>The trick is the value of each crystal is hidden until you click on it. With the values of each crystal changing each time the game starts.</p>
+
+                <p>Good Luck!</p>
+             </div>
+        </div>
+        
+        <div class="col-sm-1"></div> 
+    
+        <div class="col-sm-6 rightPan"> 
+            <div class="row">
+                <div class="col-sm-6 numberGoal">
+                 </div>
+                <br>
+                <div class="col-sm-6 score">
+                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 images">
+                 </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-sm-12 winLossCount">
+                  </div>
+            </div>
+        </div>
+
+     </div>  
+</div>
+
+<!-- Linking Personal JS -->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
